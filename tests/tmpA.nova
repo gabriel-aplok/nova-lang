@@ -1,0 +1,3 @@
+var c = 0;
+var d = 100;
+PrintLn('D=' + d);

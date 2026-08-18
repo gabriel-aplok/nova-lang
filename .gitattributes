@@ -1,0 +1,54 @@
+# Auto detect text files
+* text=auto
+
+# Normalize line endings
+*.cs      text diff=csharp
+*.csproj  text
+*.sln     text
+*.props   text
+*.targets text
+*.json    text
+*.md      text
+*.txt     text
+*.yml     text
+*.yaml    text
+*.xml     text
+
+# Godot-style resource files
+*.tres text linguist-language=INI
+*.res  binary
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Prevent line ending issues in generated assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.so  binary
+*.dylib binary
+*.pdb binary
+
+# GitHub language detection
+*.gd linguist-language=GDScript
+
+# Treat generated code as vendored if needed
+Generated/** linguist-generated=true
+
+# Merge behavior
+*.cs merge=union
+
+# Ensure UTF-8 consistency
+*.cs     working-tree-encoding=UTF-8
+*.json   working-tree-encoding=UTF-8
+*.tres   working-tree-encoding=UTF-8
+*.md     working-tree-encoding=UTF-8

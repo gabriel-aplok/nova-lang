@@ -1,0 +1,13 @@
+var e = 0;
+for (var i = 0; i < 5; i = i + 1) {
+    try {
+        if (i == 2) {
+            break;
+        }
+        e = e + i;
+    }
+    finally {
+        e = e + 1;
+    }
+}
+PrintLn('E=' + e);

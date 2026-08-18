@@ -1,0 +1,33 @@
+var a = 0;
+try {
+    a = 1;
+}
+finally {
+    a = a + 10;
+}
+PrintLn('normal-finally:' + a);
+
+var b = 'n';
+try {
+    try {
+        throw 'boom';
+    }
+    finally {
+        b = b + 'F';
+    }
+}
+catch (e) {
+    b = b + 'C:' + e;
+}
+PrintLn('rethrow:' + b);
+
+var c = 0;
+try {
+    try {
+        c = c + 100;
+    }
+    finally {
+        c = c + 3;
+    }
+}
+PrintLn('plain-nested:' + c);

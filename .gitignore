@@ -1,0 +1,73 @@
+# Build
+bin/
+obj/
+out/
+artifacts/
+
+# Rider
+.idea/
+
+# VSCode
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+packages/
+
+# Test Results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Generated files
+Generated/
+Temp/
+Cache/
+
+# Publish
+publish/
+
+# Resource cache
+*.import
+*.tmp
+
+# Godot-style runtime cache
+*.res.cache
+*.tres.cache
+
+# JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# Runtime dumps
+*.stackdump
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Local settings
+appsettings.Development.json
+
+# raylib
+raylib/**
+raylib
+
+# lol
+Files/**
+Files

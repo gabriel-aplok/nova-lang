@@ -1,0 +1,9 @@
+var c = 0;
+try {
+    c = 5;
+}
+catch (e) {
+    c = 1000;
+}
+var d = 100;
+PrintLn('D=' + d);
